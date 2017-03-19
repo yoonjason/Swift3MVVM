@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */; };
-		A8F84D5D1E7E827900CD20B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D5C1E7E827900CD20B4 /* ViewController.swift */; };
 		A8F84D601E7E827900CD20B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D5E1E7E827900CD20B4 /* Main.storyboard */; };
 		A8F84D621E7E827900CD20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D611E7E827900CD20B4 /* Assets.xcassets */; };
 		A8F84D651E7E827900CD20B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D631E7E827900CD20B4 /* LaunchScreen.storyboard */; };
 		A8F84D701E7E827900CD20B4 /* mvvm_turorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D6F1E7E827900CD20B4 /* mvvm_turorialTests.swift */; };
 		A8F84D7B1E7E827900CD20B4 /* mvvm_turorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D7A1E7E827900CD20B4 /* mvvm_turorialUITests.swift */; };
+		A8F84D8B1E7EAF1C00CD20B4 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */; };
+		A8F84D8D1E7EB17600CD20B4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		A8F84D571E7E827900CD20B4 /* mvvm-turorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-turorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8F84D5C1E7E827900CD20B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8F84D5F1E7E827900CD20B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8F84D611E7E827900CD20B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F84D641E7E827900CD20B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		A8F84D761E7E827900CD20B4 /* mvvm-turorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvm-turorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D7A1E7E827900CD20B4 /* mvvm_turorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_turorialUITests.swift; sourceTree = "<group>"; };
 		A8F84D7C1E7E827900CD20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */,
-				A8F84D5C1E7E827900CD20B4 /* ViewController.swift */,
 				A8F84D5E1E7E827900CD20B4 /* Main.storyboard */,
+				A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */,
 				A8F84D611E7E827900CD20B4 /* Assets.xcassets */,
 				A8F84D631E7E827900CD20B4 /* LaunchScreen.storyboard */,
 				A8F84D661E7E827900CD20B4 /* Info.plist */,
+				A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */,
 			);
 			path = "mvvm-turorial";
 			sourceTree = "<group>";
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F84D5D1E7E827900CD20B4 /* ViewController.swift in Sources */,
 				A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */,
+				A8F84D8D1E7EB17600CD20B4 /* TableViewController.swift in Sources */,
+				A8F84D8B1E7EAF1C00CD20B4 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
