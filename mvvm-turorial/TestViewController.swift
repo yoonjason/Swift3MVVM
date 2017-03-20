@@ -15,6 +15,7 @@ class Zootopia {
         let comment = "토끼 등장!"
     }
     
+    
     let disposeBag = DisposeBag()
     let timer = Observable<Int>.interval(3.0, scheduler: MainScheduler.instance)
     
@@ -27,12 +28,19 @@ class Zootopia {
 
 
 class TestViewController: UIViewController {
+    
+
+    let data = DataService()
     var zootopia = Zootopia()
 
+    
+    @IBOutlet weak var textLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 //        zootopia.timer
         Zootopia()
+        textLabel.text = data.data.artistText
 
         // Do any additional setup after loading the view.
     }

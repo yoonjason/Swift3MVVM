@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return [CarViewModel(car: ferrariF12), CarViewModel(car: zondaF), CarViewModel(car: lamboAventador), CarViewModel(car:SM5)]
     }()
     
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

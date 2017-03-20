@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		968F1D651E7FB96100E8772B /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968F1D641E7FB96100E8772B /* Test.storyboard */; };
 		968F1D671E7FBA3100E8772B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D661E7FBA3100E8772B /* TestViewController.swift */; };
+		968F1D6A1E7FC20E00E8772B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D691E7FC20E00E8772B /* Model.swift */; };
+		968F1D6D1E7FC43300E8772B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D6C1E7FC43300E8772B /* ViewModel.swift */; };
+		968F1D701E7FC93400E8772B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D6F1E7FC93400E8772B /* DataService.swift */; };
 		A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */; };
 		A8F84D601E7E827900CD20B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D5E1E7E827900CD20B4 /* Main.storyboard */; };
 		A8F84D621E7E827900CD20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D611E7E827900CD20B4 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 		7E3E5B0D28168EA00001AC82 /* Pods-mvvm-turorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialTests/Pods-mvvm-turorialTests.debug.xcconfig"; sourceTree = "<group>"; };
 		968F1D641E7FB96100E8772B /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		968F1D661E7FBA3100E8772B /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		968F1D691E7FC20E00E8772B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		968F1D6C1E7FC43300E8772B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		968F1D6F1E7FC93400E8772B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		995388FCB6F857A8BF243271 /* Pods_mvvm_turorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D571E7E827900CD20B4 /* mvvm-turorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-turorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +111,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		968F1D681E7FC1FF00E8772B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				968F1D691E7FC20E00E8772B /* Model.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		968F1D6B1E7FC42600E8772B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				968F1D6C1E7FC43300E8772B /* ViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		968F1D6E1E7FC48200E8772B /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				968F1D6F1E7FC93400E8772B /* DataService.swift */,
+			);
+			name = DataService;
+			sourceTree = "<group>";
+		};
 		A77FE2C741D309B3EEEDAD1F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,15 +173,18 @@
 		A8F84D591E7E827900CD20B4 /* mvvm-turorial */ = {
 			isa = PBXGroup;
 			children = (
+				968F1D6E1E7FC48200E8772B /* DataService */,
+				968F1D6B1E7FC42600E8772B /* ViewModel */,
+				968F1D681E7FC1FF00E8772B /* Model */,
 				A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */,
 				A8F84D5E1E7E827900CD20B4 /* Main.storyboard */,
+				968F1D641E7FB96100E8772B /* Test.storyboard */,
 				A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */,
 				968F1D661E7FBA3100E8772B /* TestViewController.swift */,
 				A8F84D611E7E827900CD20B4 /* Assets.xcassets */,
 				A8F84D631E7E827900CD20B4 /* LaunchScreen.storyboard */,
 				A8F84D661E7E827900CD20B4 /* Info.plist */,
 				A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */,
-				968F1D641E7FB96100E8772B /* Test.storyboard */,
 			);
 			path = "mvvm-turorial";
 			sourceTree = "<group>";
@@ -456,9 +489,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968F1D6A1E7FC20E00E8772B /* Model.swift in Sources */,
+				968F1D701E7FC93400E8772B /* DataService.swift in Sources */,
 				A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */,
 				A8F84D8D1E7EB17600CD20B4 /* TableViewController.swift in Sources */,
 				968F1D671E7FBA3100E8772B /* TestViewController.swift in Sources */,
+				968F1D6D1E7FC43300E8772B /* ViewModel.swift in Sources */,
 				A8F84D8B1E7EAF1C00CD20B4 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
