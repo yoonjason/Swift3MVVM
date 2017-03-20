@@ -11,7 +11,6 @@ import UIKit
 class TableViewController: UITableViewController {
 
     let cars: [CarViewModel] = (UIApplication.shared.delegate as! AppDelegate).cars
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

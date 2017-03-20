@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let zondaF = Car(model: "Zonda F", make: "Pagani", kilowatts: 602, photoURL: "http://storage.pagani.com/view/1024/BIG_zg-4-def.jpg")
         let lamboAventador = Car(model: "Aventador", make: "Lamborghini", kilowatts: 700, photoURL: "http://cdn.lamborghini.com/content/models/aventador_lp700-4_roadster/gallery_2013/roadster_21.jpg")
         let SM5 = Car(model: "SM5", make: "SANSUNG", kilowatts: 900, photoURL: "https://3.bp.blogspot.com/-xfyU4a7r_Y0/WMfrUCj1EII/AAAAAAAAiYE/rXxQr17ZgloysoCim5m8g9NWoFSqd3jsgCLcB/s0/1.jpg")
-        return [CarViewModel(car: ferrariF12), CarViewModel(car: zondaF), CarViewModel(car: lamboAventador)]
+        return [CarViewModel(car: ferrariF12), CarViewModel(car: zondaF), CarViewModel(car: lamboAventador), CarViewModel(car:SM5)]
     }()
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

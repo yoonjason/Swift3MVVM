@@ -8,8 +8,10 @@
 
 import Foundation
 import UIKit
+import RxSwift
+import RxCocoa
 
-
+//Model
 class Car {
     var model: String
     var make: String
@@ -24,6 +26,8 @@ class Car {
     }
 }
 
+
+//ViewModel
 class CarViewModel {
     private var car: Car
     static let horsepowerPerKilowatt = 1.34102209

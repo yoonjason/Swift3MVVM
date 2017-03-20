@@ -15,6 +15,9 @@
 		A8F84D7B1E7E827900CD20B4 /* mvvm_turorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D7A1E7E827900CD20B4 /* mvvm_turorialUITests.swift */; };
 		A8F84D8B1E7EAF1C00CD20B4 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */; };
 		A8F84D8D1E7EB17600CD20B4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */; };
+		B2AC0D92E7062EAF5F8AB0E4 /* Pods_mvvm_turorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E98124273CE9D95813B3B6 /* Pods_mvvm_turorial.framework */; };
+		E4F4CA965F1E752CED52321E /* Pods_mvvm_turorialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507B242065E7044B931AC9DD /* Pods_mvvm_turorialUITests.framework */; };
+		EE744E2BA3B402FE64344FC0 /* Pods_mvvm_turorialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995388FCB6F857A8BF243271 /* Pods_mvvm_turorialTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EDE03F3B5908C4C3E17672D /* Pods-mvvm-turorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialUITests/Pods-mvvm-turorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		507B242065E7044B931AC9DD /* Pods_mvvm_turorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3E5B0D28168EA00001AC82 /* Pods-mvvm-turorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialTests/Pods-mvvm-turorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		995388FCB6F857A8BF243271 /* Pods_mvvm_turorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D571E7E827900CD20B4 /* mvvm-turorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-turorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F84D5F1E7E827900CD20B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		A8F84D7C1E7E827900CD20B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AA1F9627CE06EACA067A214F /* Pods-mvvm-turorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorial/Pods-mvvm-turorial.release.xcconfig"; sourceTree = "<group>"; };
+		CEFFAD9FA175982293A4013D /* Pods-mvvm-turorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorial/Pods-mvvm-turorial.debug.xcconfig"; sourceTree = "<group>"; };
+		E8CEDFAEC43183E85076AD83 /* Pods-mvvm-turorialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialTests/Pods-mvvm-turorialTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEDE8F4414FAA142627A0148 /* Pods-mvvm-turorialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialUITests/Pods-mvvm-turorialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F7E98124273CE9D95813B3B6 /* Pods_mvvm_turorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AC0D92E7062EAF5F8AB0E4 /* Pods_mvvm_turorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE744E2BA3B402FE64344FC0 /* Pods_mvvm_turorialTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F4CA965F1E752CED52321E /* Pods_mvvm_turorialUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E8B870EADCECDAFEA078617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E98124273CE9D95813B3B6 /* Pods_mvvm_turorial.framework */,
+				995388FCB6F857A8BF243271 /* Pods_mvvm_turorialTests.framework */,
+				507B242065E7044B931AC9DD /* Pods_mvvm_turorialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77FE2C741D309B3EEEDAD1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFFAD9FA175982293A4013D /* Pods-mvvm-turorial.debug.xcconfig */,
+				AA1F9627CE06EACA067A214F /* Pods-mvvm-turorial.release.xcconfig */,
+				7E3E5B0D28168EA00001AC82 /* Pods-mvvm-turorialTests.debug.xcconfig */,
+				E8CEDFAEC43183E85076AD83 /* Pods-mvvm-turorialTests.release.xcconfig */,
+				3EDE03F3B5908C4C3E17672D /* Pods-mvvm-turorialUITests.debug.xcconfig */,
+				EEDE8F4414FAA142627A0148 /* Pods-mvvm-turorialUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8F84D4E1E7E827800CD20B4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				A8F84D6E1E7E827900CD20B4 /* mvvm-turorialTests */,
 				A8F84D791E7E827900CD20B4 /* mvvm-turorialUITests */,
 				A8F84D581E7E827900CD20B4 /* Products */,
+				A77FE2C741D309B3EEEDAD1F /* Pods */,
+				8E8B870EADCECDAFEA078617 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8F84D7F1E7E827900CD20B4 /* Build configuration list for PBXNativeTarget "mvvm-turorial" */;
 			buildPhases = (
+				92F3E157D983197DDFFDD447 /* [CP] Check Pods Manifest.lock */,
 				A8F84D531E7E827800CD20B4 /* Sources */,
 				A8F84D541E7E827800CD20B4 /* Frameworks */,
 				A8F84D551E7E827800CD20B4 /* Resources */,
+				73CAF82991B9E1DFEF7D6D45 /* [CP] Embed Pods Frameworks */,
+				DBB367D91462752C35BB754F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8F84D821E7E827900CD20B4 /* Build configuration list for PBXNativeTarget "mvvm-turorialTests" */;
 			buildPhases = (
+				124363838B9BCCA14773B7A5 /* [CP] Check Pods Manifest.lock */,
 				A8F84D671E7E827900CD20B4 /* Sources */,
 				A8F84D681E7E827900CD20B4 /* Frameworks */,
 				A8F84D691E7E827900CD20B4 /* Resources */,
+				7E4E00A141FC2680D9FD3AA0 /* [CP] Embed Pods Frameworks */,
+				4A86783AF59793CBEE9E2BD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8F84D851E7E827900CD20B4 /* Build configuration list for PBXNativeTarget "mvvm-turorialUITests" */;
 			buildPhases = (
+				49A6AED57DDF8836D3B4AE98 /* [CP] Check Pods Manifest.lock */,
 				A8F84D721E7E827900CD20B4 /* Sources */,
 				A8F84D731E7E827900CD20B4 /* Frameworks */,
 				A8F84D741E7E827900CD20B4 /* Resources */,
+				6C38CAD0FB51F2115F985FE1 /* [CP] Embed Pods Frameworks */,
+				CF57A521B9AA6960B0C28373 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124363838B9BCCA14773B7A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49A6AED57DDF8836D3B4AE98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A86783AF59793CBEE9E2BD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mvvm-turorialTests/Pods-mvvm-turorialTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C38CAD0FB51F2115F985FE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mvvm-turorialUITests/Pods-mvvm-turorialUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73CAF82991B9E1DFEF7D6D45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mvvm-turorial/Pods-mvvm-turorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4E00A141FC2680D9FD3AA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mvvm-turorialTests/Pods-mvvm-turorialTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F3E157D983197DDFFDD447 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF57A521B9AA6960B0C28373 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mvvm-turorialUITests/Pods-mvvm-turorialUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB367D91462752C35BB754F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mvvm-turorial/Pods-mvvm-turorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8F84D531E7E827800CD20B4 /* Sources */ = {
@@ -414,6 +601,7 @@
 		};
 		A8F84D801E7E827900CD20B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFFAD9FA175982293A4013D /* Pods-mvvm-turorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mvvm-turorial/Info.plist";
@@ -426,6 +614,7 @@
 		};
 		A8F84D811E7E827900CD20B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA1F9627CE06EACA067A214F /* Pods-mvvm-turorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mvvm-turorial/Info.plist";
@@ -438,6 +627,7 @@
 		};
 		A8F84D831E7E827900CD20B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3E5B0D28168EA00001AC82 /* Pods-mvvm-turorialTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		A8F84D841E7E827900CD20B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CEDFAEC43183E85076AD83 /* Pods-mvvm-turorialTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +657,7 @@
 		};
 		A8F84D861E7E827900CD20B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EDE03F3B5908C4C3E17672D /* Pods-mvvm-turorialUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "mvvm-turorialUITests/Info.plist";
@@ -479,6 +671,7 @@
 		};
 		A8F84D871E7E827900CD20B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDE8F4414FAA142627A0148 /* Pods-mvvm-turorialUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "mvvm-turorialUITests/Info.plist";

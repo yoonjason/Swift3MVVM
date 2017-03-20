@@ -1,0 +1,6 @@
+framework module Pods_mvvm_turorial {
+  umbrella header "Pods-mvvm-turorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
