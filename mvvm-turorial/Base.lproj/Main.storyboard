@@ -48,11 +48,27 @@
                             <outlet property="delegate" destination="tIs-5m-6Q1" id="XPd-Hg-6IV"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="FHY-wj-SVY"/>
+                    <navigationItem key="navigationItem" id="FHY-wj-SVY">
+                        <barButtonItem key="rightBarButtonItem" title="Rx_Ready" id="52J-oG-KHt"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="onButtonGoToTestPage" destination="52J-oG-KHt" id="76W-Um-VK2"/>
+                        <segue destination="40m-Mf-W0A" kind="push" identifier="TO_TEST" id="syz-es-KZq"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7a-xe-STo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1020" y="129.98500749625188"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="OWM-m7-nOd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Test" id="40m-Mf-W0A" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="adT-4G-F5c"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sh9-oR-r6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1533" y="130"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="16u-pg-sI3">

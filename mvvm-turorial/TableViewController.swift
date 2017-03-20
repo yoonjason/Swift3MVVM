@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import RxCocoa
+import RxSwift
 
 class TableViewController: UITableViewController {
 
     let cars: [CarViewModel] = (UIApplication.shared.delegate as! AppDelegate).cars
+    let disposeBag = DisposeBag()
+    
+    @IBOutlet weak var onButtonGoToTestPage: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        onButtonGoToTestPage.rx.tap.subscribe{
+            event in self.performSegue(withIdentifier: "TO_TEST", sender: nil)
+        }.disposed(by: disposeBag)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

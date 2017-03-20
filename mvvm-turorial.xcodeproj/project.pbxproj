@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		968F1D651E7FB96100E8772B /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968F1D641E7FB96100E8772B /* Test.storyboard */; };
+		968F1D671E7FBA3100E8772B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D661E7FBA3100E8772B /* TestViewController.swift */; };
 		A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */; };
 		A8F84D601E7E827900CD20B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D5E1E7E827900CD20B4 /* Main.storyboard */; };
 		A8F84D621E7E827900CD20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D611E7E827900CD20B4 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		3EDE03F3B5908C4C3E17672D /* Pods-mvvm-turorialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialUITests/Pods-mvvm-turorialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		507B242065E7044B931AC9DD /* Pods_mvvm_turorialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3E5B0D28168EA00001AC82 /* Pods-mvvm-turorialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-turorialTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mvvm-turorialTests/Pods-mvvm-turorialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		968F1D641E7FB96100E8772B /* Test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
+		968F1D661E7FBA3100E8772B /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		995388FCB6F857A8BF243271 /* Pods_mvvm_turorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D571E7E827900CD20B4 /* mvvm-turorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-turorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,10 +146,12 @@
 				A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */,
 				A8F84D5E1E7E827900CD20B4 /* Main.storyboard */,
 				A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */,
+				968F1D661E7FBA3100E8772B /* TestViewController.swift */,
 				A8F84D611E7E827900CD20B4 /* Assets.xcassets */,
 				A8F84D631E7E827900CD20B4 /* LaunchScreen.storyboard */,
 				A8F84D661E7E827900CD20B4 /* Info.plist */,
 				A8F84D8A1E7EAF1C00CD20B4 /* Car.swift */,
+				968F1D641E7FB96100E8772B /* Test.storyboard */,
 			);
 			path = "mvvm-turorial";
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			files = (
 				A8F84D651E7E827900CD20B4 /* LaunchScreen.storyboard in Resources */,
 				A8F84D621E7E827900CD20B4 /* Assets.xcassets in Resources */,
+				968F1D651E7FB96100E8772B /* Test.storyboard in Resources */,
 				A8F84D601E7E827900CD20B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +458,7 @@
 			files = (
 				A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */,
 				A8F84D8D1E7EB17600CD20B4 /* TableViewController.swift in Sources */,
+				968F1D671E7FBA3100E8772B /* TestViewController.swift in Sources */,
 				A8F84D8B1E7EAF1C00CD20B4 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -702,6 +710,7 @@
 				A8F84D811E7E827900CD20B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8F84D821E7E827900CD20B4 /* Build configuration list for PBXNativeTarget "mvvm-turorialTests" */ = {
 			isa = XCConfigurationList;
@@ -710,6 +719,7 @@
 				A8F84D841E7E827900CD20B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8F84D851E7E827900CD20B4 /* Build configuration list for PBXNativeTarget "mvvm-turorialUITests" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +728,7 @@
 				A8F84D871E7E827900CD20B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
