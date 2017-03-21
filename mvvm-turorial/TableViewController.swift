@@ -24,16 +24,12 @@ class TableViewController: UITableViewController {
             event in self.performSegue(withIdentifier: "TO_TEST", sender: nil)
         }.disposed(by: disposeBag)
         
-        onButtonRxIntro.rx.tap.subscribe{
-            value in self.performSegue(withIdentifier: "TO_RXINRO", sender: nil)
-        }.addDisposableTo(disposeBag)
         
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        onButtonRxIntro.rx.tap
+            .subscribe(onNext: { [weak self] in
+                self?.performSegue(withIdentifier: "TO_RXINRO", sender: nil)
+            })
+            .addDisposableTo(disposeBag)
     }
 
     override func didReceiveMemoryWarning() {

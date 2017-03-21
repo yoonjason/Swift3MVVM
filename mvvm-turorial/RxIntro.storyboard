@@ -85,7 +85,10 @@
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
+                        <outlet property="idCheckLabel" destination="YxS-bn-3P1" id="BY6-Sd-rL8"/>
                         <outlet property="idTextField" destination="r1w-wN-cHf" id="vud-bU-RvM"/>
+                        <outlet property="passCheckCompareLabel" destination="xhJ-1V-Qfb" id="URW-cJ-qT8"/>
+                        <outlet property="passCheckLabel" destination="riG-yT-4ir" id="Qz6-QY-AWz"/>
                         <outlet property="passTextField" destination="jdc-dk-9Bu" id="182-xI-mN2"/>
                         <outlet property="rePassTextField" destination="HT6-Ro-HYf" id="4Nx-EW-D4x"/>
                     </connections>
