@@ -12,6 +12,8 @@
 		968F1D6A1E7FC20E00E8772B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D691E7FC20E00E8772B /* Model.swift */; };
 		968F1D6D1E7FC43300E8772B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D6C1E7FC43300E8772B /* ViewModel.swift */; };
 		968F1D701E7FC93400E8772B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D6F1E7FC93400E8772B /* DataService.swift */; };
+		968F1D731E80BB6700E8772B /* RxIntro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968F1D721E80BB6700E8772B /* RxIntro.storyboard */; };
+		968F1D751E80BB7F00E8772B /* RxIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F1D741E80BB7F00E8772B /* RxIntroViewController.swift */; };
 		A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */; };
 		A8F84D601E7E827900CD20B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D5E1E7E827900CD20B4 /* Main.storyboard */; };
 		A8F84D621E7E827900CD20B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F84D611E7E827900CD20B4 /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		968F1D691E7FC20E00E8772B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		968F1D6C1E7FC43300E8772B /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		968F1D6F1E7FC93400E8772B /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		968F1D721E80BB6700E8772B /* RxIntro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RxIntro.storyboard; sourceTree = "<group>"; };
+		968F1D741E80BB7F00E8772B /* RxIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxIntroViewController.swift; sourceTree = "<group>"; };
 		995388FCB6F857A8BF243271 /* Pods_mvvm_turorialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvvm_turorialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D571E7E827900CD20B4 /* mvvm-turorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mvvm-turorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,9 +182,11 @@
 				968F1D681E7FC1FF00E8772B /* Model */,
 				A8F84D5A1E7E827900CD20B4 /* AppDelegate.swift */,
 				A8F84D5E1E7E827900CD20B4 /* Main.storyboard */,
+				968F1D721E80BB6700E8772B /* RxIntro.storyboard */,
 				968F1D641E7FB96100E8772B /* Test.storyboard */,
 				A8F84D8C1E7EB17600CD20B4 /* TableViewController.swift */,
 				968F1D661E7FBA3100E8772B /* TestViewController.swift */,
+				968F1D741E80BB7F00E8772B /* RxIntroViewController.swift */,
 				A8F84D611E7E827900CD20B4 /* Assets.xcassets */,
 				A8F84D631E7E827900CD20B4 /* LaunchScreen.storyboard */,
 				A8F84D661E7E827900CD20B4 /* Info.plist */,
@@ -324,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F84D651E7E827900CD20B4 /* LaunchScreen.storyboard in Resources */,
+				968F1D731E80BB6700E8772B /* RxIntro.storyboard in Resources */,
 				A8F84D621E7E827900CD20B4 /* Assets.xcassets in Resources */,
 				968F1D651E7FB96100E8772B /* Test.storyboard in Resources */,
 				A8F84D601E7E827900CD20B4 /* Main.storyboard in Resources */,
@@ -492,6 +499,7 @@
 				968F1D6A1E7FC20E00E8772B /* Model.swift in Sources */,
 				968F1D701E7FC93400E8772B /* DataService.swift in Sources */,
 				A8F84D5B1E7E827900CD20B4 /* AppDelegate.swift in Sources */,
+				968F1D751E80BB7F00E8772B /* RxIntroViewController.swift in Sources */,
 				A8F84D8D1E7EB17600CD20B4 /* TableViewController.swift in Sources */,
 				968F1D671E7FBA3100E8772B /* TestViewController.swift in Sources */,
 				968F1D6D1E7FC43300E8772B /* ViewModel.swift in Sources */,

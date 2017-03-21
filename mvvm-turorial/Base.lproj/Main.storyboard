@@ -9,6 +9,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--RxIntro-->
+        <scene sceneID="HMg-aZ-466">
+            <objects>
+                <viewControllerPlaceholder storyboardName="RxIntro" id="ler-yc-NTt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dov-2Z-qIi"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAm-SO-nNY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018" y="-252"/>
+        </scene>
         <!--Table View Controller-->
         <scene sceneID="DEu-zS-6gG">
             <objects>
@@ -49,11 +59,14 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="FHY-wj-SVY">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="0ej-ng-QZ7"/>
                         <barButtonItem key="rightBarButtonItem" title="Rx_Ready" id="52J-oG-KHt"/>
                     </navigationItem>
                     <connections>
                         <outlet property="onButtonGoToTestPage" destination="52J-oG-KHt" id="76W-Um-VK2"/>
+                        <outlet property="onButtonRxIntro" destination="0ej-ng-QZ7" id="uUY-9q-ddu"/>
                         <segue destination="40m-Mf-W0A" kind="push" identifier="TO_TEST" id="syz-es-KZq"/>
+                        <segue destination="ler-yc-NTt" kind="push" identifier="TO_RXINRO" id="Y8A-7W-oSQ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7a-xe-STo" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -15,12 +15,20 @@ class TableViewController: UITableViewController {
     let cars: [CarViewModel] = (UIApplication.shared.delegate as! AppDelegate).cars
     let disposeBag = DisposeBag()
     
+    
+    @IBOutlet weak var onButtonRxIntro: UIBarButtonItem!
     @IBOutlet weak var onButtonGoToTestPage: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
         onButtonGoToTestPage.rx.tap.subscribe{
             event in self.performSegue(withIdentifier: "TO_TEST", sender: nil)
         }.disposed(by: disposeBag)
+        
+        onButtonRxIntro.rx.tap.subscribe{
+            value in self.performSegue(withIdentifier: "TO_RXINRO", sender: nil)
+        }.addDisposableTo(disposeBag)
+        
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -47,6 +55,7 @@ class TableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
      
         let cell = tableView.dequeueReusableCell(withIdentifier: "CarCell", for: indexPath)
         let carViewModel = cars[indexPath.row]
